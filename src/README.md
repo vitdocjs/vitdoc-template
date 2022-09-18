@@ -9,7 +9,7 @@ order: 0
 Vite requires Node.js version 14.18+, 16+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
 :::
 
-You can modify the code below like writing a document to view your component effect in real time.
+You can modify the `markdown` code like writing a document to view your component effect in real time.
 
 ---
 
