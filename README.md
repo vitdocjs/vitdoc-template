@@ -1,4 +1,3 @@
-# Vitdoc Template
+# Vitdoc Starter
 
-你可以使用该项目快速初始化一个 [vitdoc](https://vitdocjs.github.io/) 
-
+You can use this project to quickly initialize a [vitdoc](https://vitdocjs.github.io/)
