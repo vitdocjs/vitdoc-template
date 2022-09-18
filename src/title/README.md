@@ -1,8 +1,3 @@
----
-title: Welcome
-order: 0
----
-
 ## Quick Start
 
 :::tip{title="Compatibility Note"}

@@ -16,21 +16,21 @@ You can modify the `markdown` code like writing a document to view your componen
 #### Welcome to use [**Vitdoc**](https://vitdocjs.github.io)
 
 ```tsx
-import { Title as Component } from '.';
+import { Title } from '.';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <div style={{ display: 'flex', flexDirection: 'column' }}>
-    <Component
+    <Title
       title="Training Material"
       subTitle="Ensure that you meet our campaign criteria.\n Click on the respective image below to unlock tips on how to soar this 12.12 !"
     />
-    <Component
+    <Title
       title="PREPARE FOR 12.12 WITH 6 KEY FOCUS"
       subTitle="Ensure that you meet our campaign criteria.<br /> Click on the respective image below to unlock tips on how to soar this 12.12 !"
     />
-    <Component
+    <Title
       theme={{ isMobile: true }}
       title="PREPARE FOR 12.12 WITH 6 KEY FOCUS"
       subTitle="Ensure that you meet our campaign criteria.<br /> Click on the respective image below to unlock tips on how to soar this 12.12 !"
@@ -38,4 +38,10 @@ ReactDOM.render(
   </div>,
   mountNode,
 );
+```
+
+```tsx
+import { IProps } from "./title/index.tsx.type";
+
+renderType$(IProps, mountNode);
 ```
