@@ -1,9 +1,19 @@
 ---
-title: Title
-group:
-  title: Components
-  order: 0
+title: Welcome
+order: 0
 ---
+
+## Quick Start
+
+:::tip{title="Compatibility Note"}
+Vite requires Node.js version 14.18+, 16+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+:::
+
+You can modify the code below like writing a document to view your component effect in real time.
+
+---
+
+#### Welcome to use [**Vitdoc**](https://vitdocjs.github.io)
 
 ```tsx
 import { Title as Component } from '.';
@@ -28,12 +38,4 @@ ReactDOM.render(
   </div>,
   mountNode,
 );
-```
-
-#### API
-
-```tsx
-import ComponentType from './index.tsx.type';
-
-renderType$(ComponentType, mountNode);
 ```
