@@ -7,14 +7,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Text from './index';
 
-ReactDOM.render(<Text size="large" />, mountNode);
+ReactDOM.render(
+  <div>
+    <Text size="large" />
+  </div>,
+  mountNode,
+);
 ```
 
 ```tsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Text from './index';
 
-
-ReactDOM.render(<Text d size="medium" />, mountNode);
+function App() {
+  return (
+    <div>
+      <Text size="medium" />
+    </div>
+  );
+}
+export default App;
 ```

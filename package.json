@@ -15,7 +15,7 @@
     "@types/lodash": "^4.14.116",
     "@types/react-dom": "^16.8.0",
     "sass": "^1.54.5",
-    "vitdoc": "^1.0.7"
+    "vitdoc": "^1.1.8"
   },
   "sideEffects": [
     "*.css",

@@ -24,7 +24,7 @@ export interface IProps {
   /**
    * 显示尺寸
    */
-  size?: "large" | 'medium' | 'small';
+  size?: 'large' | 'medium' | 'small';
 
   /**
    * Banner高度
@@ -38,9 +38,10 @@ export interface IProps {
  */
 export function Text(props: IProps) {
   const { visible = true, size } = props;
+
   return (
     <div className={'component-scope ' + size}>
-      {visible ? 'Hello World' : ''} {size}
+      {visible ? 'Hello World ' : ''} {size}
     </div>
   );
 }

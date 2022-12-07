@@ -1,3 +1,5 @@
+#### Basic Usage
+
 ```tsx
 import { Title as Component } from '..';
 import React from 'react';
@@ -21,12 +23,4 @@ ReactDOM.render(
   </div>,
   mountNode,
 );
-```
-
-#### API
-
-```tsx
-import ComponentType from './index.tsx.type';
-
-renderType$(ComponentType, mountNode);
 ```
